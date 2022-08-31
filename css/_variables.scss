@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    // updated
+    --primary: #2D2A2A;
+    --white: #FFFFFF;
+    --lagoon: #E5E5E5;
+    --gray: rgba(228, 175, 111, 0.5);
+    --chocolate: #93430A;
+    --darkChocolate: #5A3428;
+    --black: #080809;
+
+    --font1: 'Volkhov';
+    --font2: 'Poppins', sans-serif;
+}
+
+$primary: var(--primary);
+$white: var(--white);
+$lagoon: var(--lagoon);
+$gray: var(--gray);
+$chocolate: var(--chocolate);
+$darkChocolate: var(--darkChocolate);
+$black: var(--black);
+
+
+$font1: var(--font1);
+$font2: var(--font2);
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin bgCover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
